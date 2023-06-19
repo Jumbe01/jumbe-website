@@ -1,0 +1,158 @@
+
+body {
+    font-family:verdana;
+    
+    }*{
+    margin:0;
+    padding:0;
+    }
+    header,footer{
+    position:absolute;
+    background-color:darkblue;
+    width:100%;
+    color:white;
+    }
+    header h2 {
+    position:absolute;
+    margin-top:20px;
+    left:10%;
+    color:white;
+    }
+    header {
+    height:10vh;
+    position: sticky;
+    top:0vh;
+    }
+    footer {
+    height: 10vh;
+    bottom:0;
+    }
+    
+    .nav {
+    positon:absolute;
+    Width:100%;
+    }
+    .nav a {
+    position:relative;
+    left:60%;
+    top:20px;
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    }
+    footer p{
+    position:absolute;
+    right:80%;
+    bottom:20px;
+    color:orange;
+    }
+    body {
+    height:100vh;
+    position: sticky;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 6.74rem;
+    box-sizing: inherit;
+    }
+    p {
+    color:darkblue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
+    }
+    .background-image {
+        background-image: url("welding.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    width: auto;
+    height: 100vh;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    color:white;
+    }
+    h1 {
+    COLOR:white;
+    border:2px solid white;
+    padding: 10px;
+    text-align: start;
+    background-color: darkblue;
+    }
+
+   
+     
+    section{
+        padding: 10px 10px;
+        position: sticky;
+
+        
+    }
+     
+  
+    .custom-tabs-accordion {
+        position: relative;
+    }
+    .custom-tabs-accordion .custom-tabs-accordion-header-container{
+        display: flex;
+        width: 100%;
+        position: relative;
+        flex-direction: row;
+     
+    }
+     
+    .custom-tabs-accordion .custom-tabs-accordion-header-container .custom-tabs-accordion-header {
+        border: 1px solid rgb(141, 139, 139);
+        padding: 5px 10px;
+        background: #f4f4f4;
+        cursor: pointer;
+    }
+    .custom-tabs-accordion .custom-tabs-accordion-body-container{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+    }
+    .custom-tabs-accordion .custom-tabs-accordion-body{
+        border: 1px solid #fffdfd;
+        background: #fff;
+        overflow: hidden;
+        height: 0;
+        transition: height .3s ease-in-out;
+        position: absolute;
+    }
+     
+    .custom-tabs-accordion .custom-tabs-accordion-header.active,
+    .custom-tabs-accordion .custom-tabs-accordion-header:hover{
+        background: #dbd2d2;
+    }
+     
+    .custom-tabs-accordion .custom-tabs-accordion-body.active{
+        height: auto;
+        padding: 5px 10px;
+        position: relative;
+    }
+     
+  
+     
+    @media(max-width:480px) {
+        .custom-tabs-accordion .custom-tabs-accordion-header-container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+        }
+     
+        .custom-tabs-accordion .custom-tabs-accordion-header.active,
+        .custom-tabs-accordion .custom-tabs-accordion-header:hover{
+            background: #dbd2d2;
+            
+        }
+     
+        .custom-tabs-accordion .custom-tabs-accordion-body.active{
+            height: auto;
+            position: relative;
+            padding: 5px 10px;
+        }
+    }
+    
+
